@@ -1,7 +1,19 @@
-div {
+.container {
+	width: 966px;
+	height: 850px;
+	margin: 0 auto;
+	padding: 50px 45px 60px 45px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+}
+
+.main {
 	width: 966px;
 	height: 800px;
 	margin: 0 auto;
+}
+
+.logo {
+	margin-bottom: 41px;
 }
 .navigate {
 	height: 40px;
@@ -10,31 +22,24 @@ div {
 	background-image: url(hover.png);
 }
 
-.href01 {
-	margin-left: 28px;
-	height: 40px;
-	list-style: none;
-}
-
-.href02 {
-	margin-top: 12px;
-	float:left;
-	margin-right: 77px;
-	text-align: center;
-}
-
-.href02 a {
-	color: #fff;
+.navigate a {
+	display: inline-block;
+	height: 30px;
+	margin-left: 25px;
+	margin-right: 60px;
+	padding-top: 10px;
 	text-decoration: none;
-	font-family: arial;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-	
+	font-family: Tahoma;
+	color: white;
+
 }
 
-.logo {
-	margin: 51px 0px 41px 0px;
+.navigate a:hover {
+	background-image: url(hovereff.png);
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-color: #838383;
 }
-
 
 .bicycle {
 	height: 396px;
@@ -56,33 +61,33 @@ div {
 
 .list {
 	margin-top: 41px;
-	height: 238px;
-	width: 238px;
+	height: 240px;
+	width: 240px;
 	border: 1px solid #c8c8c8;
 }
 
-.list02,
-.list03,
-.list04,
-.list05,
-.list06,
-.list07 {
-	padding-top: 11px;
-	padding-bottom: 11px;
-	padding-left: 22px;
+.list02 {
+	padding: 12px 0px 11px 22px;
 }
-.list02,
-.list03,
-.list04,
-.list05,
-.list06 {
+
+.list02 {
 	border-bottom: 1px solid #c8c8c8;
 }
-.list04 {
+
+.list01 li:last-child {
+	border: none;
+}
+.list01 li :hover {
 	padding-left: 35px;
 	font-weight: bold;
-	border: 1px solid #c8c8c8;
+	border: 1px solid;
 	border-color: #f9f9f9;
+}
+
+.list01 li a {
+	text-decoration: none;
+	font: 12px Tahoma;
+	color: #2c2c2c;
 }
 
 .navigate01 {
@@ -92,43 +97,27 @@ div {
 	background-image: url(Footer.png);
 }
 
-.href03 {
-	margin-left: 28px;
-	height: 40px;
-	list-style: none;
-}
-
-.href04,
-.href05 {
-	float:left;
-	margin-top: 12px;
-	margin-right: 77px;
-	text-align: center;
-}
-
-.href04 a,
-.href05 a {
-	color: #2c2c2c;
+.navigate01 a {
+	display: inline-block;
+	height: 20px;
+	margin-left: 25px;
+	margin-right: 60px;
+	padding-top: 15px;
 	text-decoration: none;
-	font-family: arial;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #2c2c2c;
 }
 
-.href05 a {
-	text-decoration: underline;
+.navigate01 a:hover {
+	border-bottom: 1px solid;
+	border-color: #2c2c2c;
 }
 
-.href06 {
-	float:left;
-	margin-top: 12px;
-	padding-left: 211px;
-	text-align: center;
-}
-
-.container {
-	width: 1060px;
-	height: 950px;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+.navigate01 span {
+    margin-left: 205px;
+    font-family: Tahoma;
+    font-size: 12px;
 }
 
 body {
