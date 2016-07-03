@@ -1,0 +1,124 @@
+.background{
+	height: 880px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: black;
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 50px 70px 30px 70px;
+}
+
+.header {
+    position: relative;
+    height: 146px;
+}
+
+.clearfix: after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.words {
+	position: absolute;
+	top: 115px;
+	left: 85px;
+    color: #e6e6e6;
+    font: 10px Tahoma;
+}
+
+span {
+	display: block;
+	color: white;
+	font: 10px Tahoma;
+}
+
+.first {
+	font-size: 12px;
+	padding-bottom: 4px;
+}
+
+.span {
+	position: absolute;
+	top: 88px;
+	left: 840px;
+}
+
+.main{
+    height: 625px;
+    position: relative;
+}
+
+
+a {
+	display: block;
+	font: 18px Tahoma;
+	color: #e6e6e6;
+	position: relative;
+	padding: 190px 0px 0px 120px;
+	text-decoration: none;
+}
+
+a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+a span {
+	display: block;
+	height: 201px;
+	width: 267px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.india {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.nepal {
+	position: absolute;
+	top: 0px;
+	left: 347px;
+}
+
+.tibet {
+	position: absolute;
+	top: 0px;
+	left: 690px;
+}
+
+.bhutan {
+	position: absolute;
+	top: 270px;
+	left: 0px;
+}
+
+.sri-lanka {
+	position: absolute;
+	top: 270px;
+	left: 347px;
+}
+
+.maldives {
+	position: absolute;
+	top: 270px;
+	left: 690px;
+}
+
+.footer {
+	text-align: center;
+	font: 12px Tahoma;
+	color: #e6e6e6;
+}
